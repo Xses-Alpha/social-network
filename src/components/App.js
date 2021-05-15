@@ -8,7 +8,7 @@ import Main from './Main'
 
 class App extends Component {
 
-  async componentWillMount() {
+  async componentDidMount() {
     await this.loadWeb3()
     await this.loadBlockchainData()
   }
